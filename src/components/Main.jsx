@@ -4,6 +4,7 @@ export default function Main() {
     const characters = characterData.map((character) => {
         return (
             <CharacterSheet
+                key = {character.name}
                 name = {character.name}
                 race = {character.race}
                 class = {character.class}
