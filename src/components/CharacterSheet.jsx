@@ -7,13 +7,17 @@ export default function CharacterSheet(props) {
 
     return (
         <div className="character">
-            <h1>{props.name}</h1>
-            <p>{props.race}</p>
-            <p>{props.class}</p>
-            <p>{props.level}</p>
+            <h2>{props.name}</h2>
+            <p>Race: {props.race}</p>
+            <p>Class: {props.class}</p>
+            <p>Level: {props.level}</p>
+            <span className="inventory">
+            <p>Inventory:</p>
             <ul>
                 {inventoryItem}
             </ul>
+            </span>
+            
             <p>{props.isAlive}</p>
         </div>
     )
