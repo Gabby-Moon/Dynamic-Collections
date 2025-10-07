@@ -1,4 +1,4 @@
-const dndCharacters = [
+export default [
   {
     name: "Thorne Ironfist",
     race: "Dwarf",
