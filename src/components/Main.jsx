@@ -1,4 +1,5 @@
 import characterData from "./characters.js"
+import CharacterSheet from "./CharacterSheet.jsx"
 
 export default function Main() {
     const characters = characterData.map((character) => {
