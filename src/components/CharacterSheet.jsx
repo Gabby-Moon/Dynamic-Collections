@@ -7,7 +7,7 @@ export default function CharacterSheet(props) {
 
     return (
         <div className="character">
-            <h1>{props.name}</h1>
+            <h2>{props.name}</h2>
             <p>{props.race}</p>
             <p>{props.class}</p>
             <p>{props.level}</p>
