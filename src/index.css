@@ -62,3 +62,7 @@ header, footer {
 .level.low {
   color: rgb(122, 90, 0);
 }
+
+.character.high {
+  background-color: rgba(215, 174, 11, 0.214);
+}

@@ -2,7 +2,7 @@ import Inventory from "./Inventory.jsx"
 export default function CharacterSheet(props) {
 
     return (
-        <div className={`character ${props.isAlive ? "alive" : "dead"}`}>
+        <div className={`character ${props.isAlive ? "alive" : "dead"} ${props.level>=10 ? "high" : "low"}`}>
             
             <div className="character-left">
                 <h2 className={`level ${props.level>10 ? "high" : "low"}`}>{props.name}</h2>
