@@ -1,8 +1,6 @@
 export default function Inventory(props) {
     const inventoryItem = props.inventory.map((item) => {
-        return (
-            <li key={item}>{item}</li>
-        )
+        <li key={item}>{item}</li>
     })
 
     if (inventoryItem.length > 0) {

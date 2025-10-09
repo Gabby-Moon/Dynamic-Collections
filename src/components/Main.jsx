@@ -11,7 +11,6 @@ export default function Main() {
                 class = {character.class}
                 level = {character.level}
                 inventory = {character.inventory}
-                isAlive = {character.isAlive}
             />
     )
     })

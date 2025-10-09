@@ -1,4 +1,3 @@
-import Inventory from "./Inventory.jsx"
 export default function CharacterSheet(props) {
 
     return (
