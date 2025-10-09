@@ -94,5 +94,13 @@ export default [
     level: 3,
     inventory: ["Club", "Animal Bones", "Meat Rations"],
     isAlive: false
+  },
+  {
+    name: "Dug the Poor",
+    race: "Orc",
+    class: "Barbarian",
+    level: 3,
+    inventory: [],
+    isAlive: true
   }
 ];

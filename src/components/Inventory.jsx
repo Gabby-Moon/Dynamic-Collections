@@ -5,14 +5,18 @@ export default function Inventory(props) {
         )
     })
 
-    return (
+    if (inventoryItem.length > 0) {
+        return (
             <span className="inventory">
             <p><span className="font-label">Inventory:</span></p>
             <ul>
                 {inventoryItem}
             </ul>
             </span>
-    )
-
-    
+        )
+    } else {
+        return (
+            <p>Inventory is empty.</p>
+        )
+    }
 }
