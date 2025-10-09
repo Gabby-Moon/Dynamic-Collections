@@ -7,7 +7,7 @@ export default function Inventory(props) {
 
     return (
             <span className="inventory">
-            <p>Inventory:</p>
+            <p><span className="font-label">Inventory:</span></p>
             <ul>
                 {inventoryItem}
             </ul>

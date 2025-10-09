@@ -6,9 +6,9 @@ export default function CharacterSheet(props) {
             
             <div className="character-left">
                 <h2>{props.name}</h2>
-                <p>Race: {props.race}</p>
-                <p>Class: {props.class}</p>
-                <p>Level: {props.level}</p>
+                <p><span className="font-label">Race:</span> {props.race}</p>
+                <p><span className="font-label">Class:</span> {props.class}</p>
+                <p><span className="font-label">Level:</span> {props.level}</p>
             </div>
 
             <div className="character-right">
