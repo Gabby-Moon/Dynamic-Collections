@@ -39,6 +39,7 @@ header, footer {
   border-style: dotted;
   gap: 50px;
   justify-content: center;
+  margin: 10px;
 }
 
 .character.dead {
@@ -47,9 +48,17 @@ header, footer {
 }
 
 .character.alive {
-  color: darkgreen;
+  color:rgb(0, 46, 0);
 }
 
 .font-label {
   font-weight: bold;
+}
+
+.level.high {
+  color: goldenrod;
+}
+
+.level.low {
+  color: rgb(122, 90, 0);
 }
